@@ -1,17 +1,17 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "simple-virtual-dom",
   "version": "4.0.0",
   "description": "Plain webpack 4 Boilerplate with Babel, SASS and lodash on board",
   "author": "Christoph von Gellhorn",
   "license": "MIT",
-  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
+  "homepage": "https://github.com/wuxinweb/simple-virtual-dom.git",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
     "build": "webpack -p --progress --mode production --config webpack.config.build.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://cvgellhorn@github.com/cvgellhorn/webpack-boilerplate.git"
+    "url": "https://github.com/wuxinweb/simple-virtual-dom.git"
   },
   "dependencies": {
     "lodash": "4.17.15"
