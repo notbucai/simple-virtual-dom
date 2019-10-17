@@ -1,6 +1,14 @@
 {
-    "presets": ["@babel/preset-env"],
+    "presets": [
+        "@babel/preset-env"
+    ],
     "plugins": [
-        "syntax-dynamic-import"
+        "syntax-dynamic-import",
+        [
+            "@babel/plugin-transform-react-jsx",
+            {
+                "pragma": "dom"
+            }
+        ]
     ]
 }
