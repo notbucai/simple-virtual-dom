@@ -14,7 +14,7 @@
     "url": "https://github.com/wuxinweb/simple-virtual-dom.git"
   },
   "dependencies": {
-    "lodash": "4.17.15"
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "@babel/core": "7.6.4",
